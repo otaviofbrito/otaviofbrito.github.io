@@ -1,0 +1,8 @@
+Otavio Brito:
+  name: Otavio Brito
+  picture: /images/bio-photo-2.jpg
+  twitter: "REPLACE"
+  links:
+    - title: Linkedin
+      url: https://www.linkedin.com/in/otaviobrito/
+      icon: fab fa-twitter-square #REPLACE
