@@ -20,7 +20,7 @@ locale: en-US
 title: "Otavio Brito"
 description: "Computer Science"
 baseurl: "/blog" # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://otaviofbrito.github.io
 logo: "/images/profile-pic.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
@@ -37,8 +37,7 @@ google_fonts:
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: mmistakes # site's Twitter username
+
 
 # Liquid
 liquid:
@@ -107,7 +106,7 @@ defaults:
 author:
   name: Otavio Brito
   picture: /images/profile-pic.png
-  email: asdsad@gmail.com
+  email: _@gmail.com
   links:
     - title: LinkedIn
       url: https://www.linkedin.com/in/otaviobrito/
