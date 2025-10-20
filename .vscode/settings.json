@@ -1,0 +1,39 @@
+{
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // Shopify Liquid
+  "files.associations": {
+    "*.html": "liquid"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  // Formatter
+  "[html][liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
+  // Disable vscode built-in stylelint
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  // Stylint extension settings
+  "stylelint.snippet": ["css", "scss"],
+  "stylelint.validate": ["css", "scss"],
+  // Run tasks in macOS
+  "terminal.integrated.profiles.osx": {
+    "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+  },
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#78ee7d",
+    "titleBar.activeBackground": "#4be852",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#4be85299",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#4be852"
+}
